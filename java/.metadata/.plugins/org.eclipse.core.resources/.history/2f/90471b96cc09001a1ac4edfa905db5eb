@@ -1,0 +1,16 @@
+
+public class MainForAnimal {
+	public static void main(String[] args) {
+		//Animal a=new Animal();
+		Sound s=new Sound();
+		Cow c=new Cow();
+		
+		s.Sound(c);
+		
+	}
+	
+	
+	
+	
+
+}

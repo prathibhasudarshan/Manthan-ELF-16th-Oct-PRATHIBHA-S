@@ -1,0 +1,21 @@
+
+public class Food {
+	public static String Test(int i) {
+		String s=null;
+		if(i==1)
+		{
+			s="kurkure";
+		}
+		else if(i==2)
+		{
+			s="lays";
+		}
+		if(i==1)
+		{
+			s="bingo";
+		}
+		return s;
+				
+	}
+
+}
