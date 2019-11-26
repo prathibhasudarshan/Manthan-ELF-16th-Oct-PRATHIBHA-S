@@ -1,8 +1,0 @@
-
-public class Mouse
-{
-	 Mouse()
-	{
-	
-	}
-}

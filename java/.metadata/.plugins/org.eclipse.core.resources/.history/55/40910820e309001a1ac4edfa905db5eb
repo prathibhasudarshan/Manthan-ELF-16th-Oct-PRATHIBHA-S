@@ -1,5 +1,0 @@
-
-public interface SimpleInterst {
-	public simpleinterst(double p,double t,double r);
-
-}
