@@ -1,0 +1,63 @@
+package com.manthan.Musicplayer;
+
+import java.util.Scanner;
+
+public class MusicPlayer {
+
+	public static void main(String[] args, MusicPlayerInfoBean infoBean) {
+		
+		int choice;
+		Scanner sc=new Scanner(System.in);
+		System.out.println(" Press 1 for Play a song");
+		System.out.println(" Press 2 for Search a song");
+		System.out.println(" Press 3 for Show all songs");
+		System.out.println(" Press 4 for Operate on songs");
+		System.out.println("Enter your choice");
+		choice=sc.nextInt();
+		int input;
+		
+		
+		switch(choice)
+		{
+		case 1: System.out.println("enter your choice");
+		System.out.println(" Press 1 for all songs");
+		System.out.println(" Press 2 for all songs randomly");
+		System.out.println(" Press 3 for particular songs");
+				input=sc.nextInt();
+				switch(input)
+				{
+				case 1: MusicPlayerImpl imp=new MusicPlayerImpl();
+						imp.addsongs(infoBean);
+						break;
+				case 2:System.out.println(" Press 2 for all songs randomly");
+						break;
+				case 3:System.out.println(" Press 3 for particular songs");
+						break;
+				}
+				
+		case 2: System.out.println(" Search");
+				break;
+				
+		case 3:System.out.println(" show all songs");
+				break;
+		case 4:System.out.println(" operate on songs and select your choice");
+				System.out.println(" enter your choice");
+				input=sc.nextInt();
+				switch(input)
+				{
+				case 1:System.out.println(" add songs to the repostory");
+						break;
+				case 2: System.out.println(" edit an existing song");
+						break;
+						
+				case 3: System.out.println(" delete a song ");
+						
+						break;
+				}
+		
+		
+			
+		}
+	}
+
+}

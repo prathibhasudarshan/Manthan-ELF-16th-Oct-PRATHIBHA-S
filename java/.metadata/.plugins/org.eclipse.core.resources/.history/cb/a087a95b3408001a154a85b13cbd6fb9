@@ -1,0 +1,12 @@
+package com.manthan.Musicplayer;
+
+public class MusicPlayerInfoBean {
+	private int songid;
+	private String songtitle;
+	private String Artistname;
+	private String Albumname;
+	private String SongLocation;
+	private String description;
+	
+
+}
