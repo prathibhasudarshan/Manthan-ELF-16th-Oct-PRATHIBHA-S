@@ -1,0 +1,4 @@
+In this application we can upload a file from any folder.
+In this application, when we are searching the content of the specific name searched gets displayed in the result.
+We can also search this by name, were we can search and displays the name of the files present in the folder and gets displayed.
+We can download the specified files.
