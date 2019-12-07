@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="/WEIGHTCURRENCY/CSS/weight1.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<title>Weight Converter</title>
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 offset-md-3">
+				<h1 class="display-4 text-center mb-4 mt-5">Weight Converter</h1>
+				<form>
+					<div class="form-group">
+						<input type="number" id="lbsInput" class="form-control form-control-lg mb-2 text-center" placeholder="Enter Pounds...">
+					</div>
+				</form>
+				<div id="output">
+					<div class="card card-primary mb-2">
+						<div class="card-block text-center">
+							<h4>Grams:</h4>
+							<div id="gramsOutput"></div>
+						</div>
+					</div>
+
+					<div class="card card-success mb-2">
+						<div class="card-block text-center">
+							<h4>Kilograms:</h4>
+							<div id="kgOutput"></div>
+						</div>
+					</div>
+
+					<div class="card card-info mb-2">
+						<div class="card-block text-center">
+							<h4>Ounces:</h4>
+							<div id="ozOutput"></div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+ 
+	<script type="text/javascript" src="weight1.js"></script>
+
+</body>
+</html>
